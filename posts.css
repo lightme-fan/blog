@@ -11,6 +11,7 @@ body {
  
 li {
     font-size: 2rem;
+    transition: all 0.5s;
 }
 
 li > a {
@@ -26,12 +27,15 @@ a:hoover {
 
 a:active {
     color: orangered;
+    transition: all 0.5s;
+    text-transform: lowercase;
 }
 
 div {
     padding-block-start: 8rem;
     padding-inline-start: 1rem;
     font-size: larger;
+    transition: all 0.5s;
 }
 
 div > a {

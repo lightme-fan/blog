@@ -1,11 +1,57 @@
 body {
-    background-color: seashell;
+background-image: url(Untitled\ drawing\ \(1\).png);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: 50% 25%;
+position: relative;
+background-color: darkgrey;
 }
-h1 {
-    background-color: black;
-    color: ivory;
+
+header {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding-block-start: 6rem;
+    font-size: 5rem;
+    color: rgb(25, 94, 150);
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 1s;
 }
-ul>li {
-    text-decoration: lightblue;
-    text-shadow: lightslategrey;
+
+nav {
+    position: relative;
+    display: inline;
+}
+
+li {
+    font-size: 3rem;
+    position: absolute;
+    list-style: none;
+}
+
+ul a {
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+li:nth-of-type(1) {
+    top: 1rem;
+    left: 12rem;
+}
+
+li:nth-of-type(2) {
+    top: 1rem;
+    left: 68rem;
+}
+
+a:hoover {
+    transform: scale(0.5);
+}
+
+a:active {
+    color: red;
+    text-transform: lowercase;
+    transition: all 0.5s;
 }
