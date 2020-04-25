@@ -1,0 +1,11 @@
+body {
+    background-color: seashell;
+}
+h1 {
+    background-color: black;
+    color: ivory;
+}
+ul>li {
+    text-decoration: lightblue;
+    text-shadow: lightslategrey;
+}
