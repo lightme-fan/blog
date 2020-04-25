@@ -1,0 +1,39 @@
+body {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    background-image: url(Untitled\ drawing.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 0;
+    background-color: rgba(14, 210, 210, 0.6);
+}
+ 
+li {
+    font-size: 2rem;
+}
+
+li > a {
+    text-decoration: none;
+    color: indigo;
+    text-transform: uppercase;
+}
+
+a:hoover {
+    text-decoration: underline;
+    transform: scale(0.5);
+}
+
+a:active {
+    color: orangered;
+}
+
+div {
+    padding-block-start: 8rem;
+    padding-inline-start: 1rem;
+    font-size: larger;
+}
+
+div > a {
+    text-decoration: none;
+}
