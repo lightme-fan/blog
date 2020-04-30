@@ -48,6 +48,7 @@ li:nth-of-type(2) {
 
 a:hoover {
     transform: scale(0.5);
+    cursor: pointer;
 }
 
 a:active {
@@ -61,4 +62,8 @@ a:active {
 ul > li {
     text-decoration: lightblue;
     text-shadow: lightslategrey;
+}
+
+a:link {
+    color: darkblue;
 }
