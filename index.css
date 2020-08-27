@@ -1,4 +1,4 @@
-body {
+/* body {
 background-image: url(Untitled\ drawing\ \(1\).png);
 background-repeat: no-repeat;
 background-size: 100%;
@@ -7,7 +7,11 @@ position: relative;
 background-color: darkgrey;
 }
 
-header {
+.pages_container {
+
+}
+
+.pages_heading {
     position: absolute;
     top: 30%;
     left: 35%;
@@ -18,40 +22,40 @@ header {
     transition: all 1s;
 }
 
-nav {
+.pages_navigation {
     position: relative;
     display: inline;
 }
 
-li {
+.pages_list_item {
     font-size: 3rem;
     position: absolute;
     list-style: none;
 }
 
-ul a {
+.pages_list_item a {
     color: green;
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.5s;
 }
 
-li:nth-of-type(1) {
+.pages_list_item:nth-of-type(1) {
     top: 1rem;
     left: 12rem;
 }
 
-li:nth-of-type(2) {
+.pages_list_item:nth-of-type(2) {
     top: 1rem;
     left: 68rem;
 }
 
-a:hoover {
+.pages_list_item a:hoover {
     transform: scale(0.5);
     cursor: pointer;
 }
 
-a:active {
+.pages_navigation a:active {
     color: red;
     text-transform: lowercase;
     transition: all 0.5s;
@@ -59,11 +63,26 @@ a:active {
     background-color: seashell;
 }
 
-ul > li {
+.pages_navigation > .pages_navigation {
     text-decoration: lightblue;
     text-shadow: lightslategrey;
 }
 
-a:link {
+.pages_navigation a:link {
     color: darkblue;
+} */
+
+.pages {
+    background-image: url('./images/Untitled\ drawing\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    background-color: rgb(243, 243, 243);
+}
+
+.pages_container {
+    max-width: 1114px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
