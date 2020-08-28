@@ -1,88 +1,49 @@
-/* body {
-background-image: url(Untitled\ drawing\ \(1\).png);
-background-repeat: no-repeat;
-background-size: 100%;
-background-position: 50% 25%;
-position: relative;
-background-color: darkgrey;
-}
-
-.pages_container {
-
-}
-
-.pages_heading {
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    padding-block-start: 6rem;
-    font-size: 5rem;
-    color: rgb(25, 94, 150);
-    font-family: 'Courier New', Courier, monospace;
-    transition: all 1s;
-}
-
-.pages_navigation {
-    position: relative;
-    display: inline;
-}
-
-.pages_list_item {
-    font-size: 3rem;
-    position: absolute;
-    list-style: none;
-}
-
-.pages_list_item a {
-    color: green;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.5s;
-}
-
-.pages_list_item:nth-of-type(1) {
-    top: 1rem;
-    left: 12rem;
-}
-
-.pages_list_item:nth-of-type(2) {
-    top: 1rem;
-    left: 68rem;
-}
-
-.pages_list_item a:hoover {
-    transform: scale(0.5);
-    cursor: pointer;
-}
-
-.pages_navigation a:active {
-    color: red;
-    text-transform: lowercase;
-    transition: all 0.5s;
-
-    background-color: seashell;
-}
-
-.pages_navigation > .pages_navigation {
-    text-decoration: lightblue;
-    text-shadow: lightslategrey;
-}
-
-.pages_navigation a:link {
-    color: darkblue;
-} */
-
 .pages {
-    background-image: url('./images/Untitled\ drawing\ \(1\).png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    position: relative;
-    background-color: rgb(243, 243, 243);
+    background: linear-gradient(0.25turn, #9ad1e9, #ebf8e1, #e4c099);
 }
 
 .pages_container {
     max-width: 1114px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 420px;
+    background-image: url('./images/Untitled\ drawing\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10px;
+}
+
+.pages__heading {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pages_navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid;
+}
+
+.page_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(209, 204, 204);
+    padding: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(197, 188, 188), -0.5em 0 .4em olive;
+}
+
+.enjoy {
+
 }
