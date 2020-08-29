@@ -1,0 +1,71 @@
+body {
+    background-image: url('../images/fore.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    color: white;
+}
+
+.sub_heading {
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.container {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    max-width: 1114px;
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "home desc desc desc desc";
+}
+
+.desc {
+    grid-area: desc;
+    border-left: 1px solid;
+    padding-left: 2rem;
+}
+
+.home {
+    grid-area: home;
+    align-self: center;
+}
+
+.going_back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.my_posts {
+    margin-bottom: 2rem;
+}
+
+.back {
+    padding: 10px;
+    background-color: rgb(216, 212, 212);
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.to_post {
+    padding-right: 2rem;
+}
+
+details {
+    padding-bottom: 2rem;
+}
+
+summary {
+    text-transform: uppercase;
+}
+
+@media (min-width: 960px) {
+
+}

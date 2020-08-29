@@ -2,12 +2,20 @@
 
 body {
     background-color: whitesmoke;
-    text-align: center;
     text-shadow: indigo;
-    flex-direction: column;
-    min-height: 100vh;
-    max-width: 30rem;
 }
+
+.container {
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
 h1 {
     color: darkblue;
 }
@@ -20,4 +28,9 @@ ul {
 }
 h3 > * {
     color: navy;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
 }
