@@ -1,20 +1,48 @@
 body {
-    position: absolute;
-    top: 0;
-    left: 35%;
-    background-image: url(Untitled\ drawing\ \(2\).png);
-    background-repeat: no-repeat;
-    background-position: 30% 30%;
-    background-size: cover;
-    font-size: larger;
-    color: darkblue;
+    background-color: grey;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+.container {
+    max-width: 1114px;
+    margin: auto;
+    background-color: white;
+    padding: 1rem;
 }
 
-footer {
-    font-size: 1rem;
-    margin-inline-start: 6rem;
+.index {
+    text-align: center;
+    padding-top: 1rem;
 }
 
-footer > p {
-    margin-inline-end: 0;
+@media (min-width: 960px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+        grid-template-areas: "home me me me me"
+                            "index index index index index";
+    }
+    .container_desc {
+        grid-area: me;
+        border-left: 1px solid;
+        padding-left: 5rem;
+    }
+    
+    .home {
+        grid-area: home;
+        align-self: center;
+    }
+    
+    .index {
+        grid-area: index;
+        text-align: center;
+    }
+    
+    details {
+        padding-bottom: 2rem;
+    }
+    
 }

@@ -1,7 +1,4 @@
 body {
-    position: absolute;
-    top: 30%;
-    left: 35%;
     background-image: url(Untitled\ drawing.png);
     background-repeat: no-repeat;
     background-size: 60%;
@@ -9,6 +6,18 @@ body {
     background-color: rgba(14, 210, 210, 0.6);
 }
  
+.container {
+    max-width: 1114px;
+    margin: auto;
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+}
+
+ul {
+    padding: 0;
+}
+
 li {
     font-size: 2rem;
     transition: all 0.5s;
