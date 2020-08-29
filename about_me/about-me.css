@@ -1,0 +1,48 @@
+body {
+    background-color: grey;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+.container {
+    max-width: 1114px;
+    margin: auto;
+    background-color: white;
+    padding: 1rem;
+}
+
+.index {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+@media (min-width: 960px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+        grid-template-areas: "home me me me me"
+                            "index index index index index";
+    }
+    .container_desc {
+        grid-area: me;
+        border-left: 1px solid;
+        padding-left: 5rem;
+    }
+    
+    .home {
+        grid-area: home;
+        align-self: center;
+    }
+    
+    .index {
+        grid-area: index;
+        text-align: center;
+    }
+    
+    details {
+        padding-bottom: 2rem;
+    }
+    
+}

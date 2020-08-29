@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: whitesmoke;
+    text-shadow: indigo;
+}
+
+.container {
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: darkblue;
+}
+h2 {
+    box-shadow: lightgoldenrodyellow;
+    color: mediumblue;
+}
+ul {
+    background-color: lavender;
+}
+h3 > * {
+    color: navy;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}

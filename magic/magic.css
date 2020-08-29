@@ -1,0 +1,25 @@
+body    {;
+    text-align: center;
+    background-color: black;
+    border: 7mm ridge rgba(0, 255, 234, 6);
+    color: white;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    line-height: 150%;
+}
+h1  {
+    font-size: 2em;
+    color: rgb(0, 255, 157);
+}
+
+.intro q    {
+    color: rgb(0, 255, 234);
+}
+
+.explantion h3{
+    font-size: larger;
+}
+
+.back   {
+    color: linen;
+}

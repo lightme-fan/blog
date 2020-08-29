@@ -1,0 +1,50 @@
+.pages {
+    background: linear-gradient(0.25turn, #9ad1e9, #ebf8e1, #e4c099);
+}
+
+.pages_container {
+    max-width: 1114px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 420px;
+    background-image: url('./images/Untitled\ drawing\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10px;
+}
+
+.pages__heading {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pages_navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid;
+}
+
+.page_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(209, 204, 204);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(197, 188, 188), -0.5em 0 .4em olive;
+}
+
+@media (min-width: 960px) {
+    .page_link {
+        padding: 1rem;
+    }
+}
